@@ -214,6 +214,10 @@ footer {
     .hero-text h1 {
         font-size: 2em;
     }
+
+    .how-to-buy-step p {
+        font-size: 1em;
+    }
 }
 
 
@@ -229,10 +233,5 @@ footer {
 
     .hero-text h1 {
         font-size: 1.5em;
-    }
-
-
-    .how-to-buy-step p {
-        font-size: 1em;
     }
 }
