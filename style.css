@@ -1,0 +1,208 @@
+body {
+    background-color: #1a1a1a;
+    color: #c5c6c7;
+    /* font-family: 'Arial', sans-serif; */
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    text-align: center;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    /* background-color: rgba(26, 26, 26, 0.8); */
+    color: #c5c6c7;
+    /* font-family: 'Arial', sans-serif; */
+    /* z-index: 9999; */
+    height: 70px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Horizontally center the text */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: yellowgreen;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    /* cursor: pointer; */
+    border-radius: 15px;
+    /* Add rounded corners here */
+    border: 1px solid #fff;
+    /* Add border here */
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.content {
+    margin-top: 120px;
+}
+
+
+.fa:hover {
+    color: greenyellow;
+}
+
+.color {
+    color: yellowgreen;
+}
+
+/* #hero {
+    text-align: center;
+    background-image: url('landing_hero2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+} */
+#hero {
+    position: relative;
+    background-image: url('landing_hero4.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    height: 100vh;
+    /* Adjust as needed */
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    /* background-color: rgba(26, 26, 26, 0.8); */
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    /* Adjust width to fit text content */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    /* border-radius: 15px; Add rounded corners here */
+}
+
+
+
+.how-to-buy-step {
+    border-radius: 15px;
+    /* Add rounded corners here */
+    /* border: 1px solid #fff; */
+    border: 1px solid yellowgreen;
+    /* Add border here */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    /* Horizontally center the element */
+    margin-right: auto;
+    /* Horizontally center the element */
+    padding: 20px;
+    /* Add padding to create breathing room */
+}
+
+
+.social-icons {
+    text-align: center;
+    font-size: 7em;
+}
+
+.social-icons a {
+    margin: 0 50px;
+}
+
+#how-to-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#how-to-buy-content {
+    width: 60%;
+}
+
+#how-to-buy-image {
+    width: 35%;
+    height: auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.how-to-buy-step p {
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .content {
+        margin-top: 60px;
+    }
+
+    .hero-text h1 {
+        font-size: 4em;
+    }
+
+    #how-to-buy {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #how-to-buy-content {
+        width: 100%;
+    }
+
+    .how-to-buy-step {
+        width: 80%;
+    }
+
+    #how-to-buy-image {
+        align-self: flex-end;
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+}
