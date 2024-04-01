@@ -86,12 +86,13 @@ button:hover {
 #hero {
     position: relative;
     background-image: url('landing_hero4.jpg');
-    background-attachment: local;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     padding-top: 50px;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
+    height: 100%;
     /* Adjust as needed */
 }
 
