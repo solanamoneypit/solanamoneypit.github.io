@@ -99,7 +99,6 @@ button:hover {
 
 .hero-text {
     position: absolute;
-    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
     color: #ffffff;
@@ -112,6 +111,14 @@ button:hover {
     white-space: nowrap;
     /* Prevent text from wrapping */
     /* border-radius: 15px; Add rounded corners here */
+}
+
+.hero-text.one {
+    bottom: 20%;
+}
+
+.hero-text.two {
+    bottom: 10%;
 }
 
 .how-to-buy-step {
